@@ -677,6 +677,9 @@ transition: width 1s;
         
  
     }
+    .container2 {
+padding: 10px 10px;}
+    
     .faq-box {
    align-items: center;
     background-color: white;
@@ -740,6 +743,8 @@ transition: width 1s;
   font-family: "maven pro";
   position:center;}
 }
+.container2 {
+padding: 10px 10px;}
   @media (max-width: 580px) {
       .animated-info {
           min-width: 200px;
@@ -793,6 +798,8 @@ transition: width 1s;
     font-family: "maven pro";
     position:center;}
   }
+.container2 {
+padding: 10px 10px;}
   @media (max-width: 320px) {
     .animated-text {
       margin-top: 0;
@@ -854,4 +861,6 @@ transition: width 1s;
   font-family: "maven pro";
   position:center;
   }
+    .container2 {
+padding: 10px 10px;}
 }
