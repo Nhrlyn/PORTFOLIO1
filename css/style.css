@@ -96,13 +96,40 @@ color: white;
 }
 
 .container2 {
-padding: 10px 206px;
+padding: 10px 106px;
+
+
 }
 
-.container2::after, .row::after {
-content: "";
-clear: both;
-display: table;
+@media only screen and (min-width: 768px) {
+  /* Apply styles for screens 768px and larger */
+  .column1 {
+    width: 48%; /* Adjust as needed based on your layout preferences */
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Apply styles for screens 992px and larger */
+  .container2 {
+    padding: 20px; /* Increase padding for larger screens */
+  }
+  @media only screen and (max-width: 480px) {
+    /* Apply styles for screens with a maximum width of 480px (very small devices) */
+    .column1 {
+      width: 100%; /* Full width for very small screens */
+      display: block;
+    }
+  }
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Apply styles for screens between 481px and 768px (small devices) */
+    .column1 {
+      width: 100%; /* Full width for small screens */
+      display: block;
+    }
+  }
+  
 }
 
 .title {
